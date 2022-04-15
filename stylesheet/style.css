@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+nav{
+    width: 50%;
+}
+
+
+
+a{
+    text-decoration: solid;
+    color: white;
+}
+
+p{
+    text-decoration: solid;
+
+    color: whitesmoke;
+
+}
+
+
+body{
+background-image: url(../PointImagenes/lentesfondo.webp);
+margin: 0;
+margin-bottom: 10px;
+}
+
+/* header*/
+
+header{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+background: rgb(236,235,246);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.header__logo img {
+width: 30%;
+}
+
+/* Header Index */
+.header__menu{
+width: 100%;
+}
+
+.header__menu ul{
+display: flex;
+flex-direction: row;
+justify-content:space-evenly ;
+width: 100%;
+}
+
+.header__menu ul li {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.home__mainContainer ul{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+}
+
+
+.home__heroImage{
+    margin-top: 50px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    image-resolution: 100; 
+}
+.info{
+font-size: 2rem;
+color: white;
+text-transform: uppercase;
+background: rgb(236,235,246);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+padding: 1rem 0;
+width: 100%;
+text-align: center;
+margin-bottom: 10px;
+}
+
+/* Footer */
+
+
+footer {
+background: rgb(236,235,246);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+position: center;
+text-align: center;
+bottom: 0;
+width: 100%;
+margin-top: 10px;
+height: 100px;
+color: white;
+}
+
+/* Contacto */
+
+.Formulario__contacto{    
+text-align: center;
+font-weight: 600;
+color: blueviolet;
+padding: 03rem;
+display: flex;
+justify-content: center;
+
+}
+
+fieldset{
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 20px;
+margin-bottom: 20px;
+background-color: black;
+width: 100%;
+height: 100%;
+}
+
+/* Ubicaciòn */
+
+.ubicaciòn__mapa{
+text-align: center;
+}
+
+/* servicios */
+.about__servicios{
+text-align: center;
+
+}
+
+/* servicios y productos */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+
+.texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagenes{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+    width: 40%;
+    border: solid 2px white;
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.card>img{
+width: 100%;
+}
+
+/* GRID */
+
+
+.Product__section--grid{
+display: grid;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 100%;
+font-size: 1rem;
+}
+
+#Footer__Contacto
+{
+display: grid;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 100%;
+font-size: 1rem;
+}
+
+/* GRID INDEX */
+
+#Gallery__section--grid
+{
+display: grid;
+align-items: center;
+text-align: center;
+padding: 20px;
+width: 100%;
+height: 100%;
+font-size: 1rem;
+    }
+
+
+/* slider */
+
+
+#carousel slide{
+flex-direction: row;
+align-items: center;
+}
+
+ul.slider li {
+flex-direction: row;
+height: 30%;
+margin-right: 10px;
+margin-bottom: 30px;
+border: solid black;
+justify-content: space-between;
+padding-top: 30vh;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 3rem;
+text-align: center;
+}
+
+
+
+
+@media(max-width:480px){
+
+.home__mainContainer ul{
+flex-direction:column;
+}
+
+.Product__section--grid{
+flex-direction: column;
+justify-content: center;
+}
+
+
+.header__menu {
+    display: initial;
+    position: inherit;
+ }
+
+.header__logo img{
+display: initial;
+position: inherit;
+width: 3rem;
+height: 3rem;
+}
+}
