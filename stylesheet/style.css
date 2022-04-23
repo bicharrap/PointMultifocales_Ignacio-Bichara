@@ -16,6 +16,23 @@ nav{
     width: 50%;
 }
 
+h1{
+background: #136a8a; 
+background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+background: linear-gradient(to right, #136a8a, #267871);
+text-align: center;
+color:black;
+}
+
+h2{
+background: #136a8a; 
+background: -webkit-linear-gradient(to right, #136a8a, #267871); 
+background: linear-gradient(to right, #136a8a, #267871);
+text-align: center;
+color:black;
+}
+    
+
 
 
 a{
@@ -70,6 +87,10 @@ width: 100%;
     font-weight: 600;
     border-radius: 5px;
     padding: 0.5rem;
+    display: inline-block;
+  margin: 0 0.5rem;
+ animation:bounce;
+  animation-duration: 2s;
 }
 
 .home__mainContainer ul{
@@ -139,8 +160,41 @@ height: 100%;
 /* Ubicaciòn */
 
 .ubicaciòn__mapa{
-text-align: center;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
 }
+
+.negocio_1{
+align-items: center;
+margin-top:0px;
+}
+
+.card_ubicaciòn{
+border:solid black;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+
+
+
+.negocio_2{
+align-items: center;
+}
+
+.negocio_3{
+align-items: center;
+}
+
+.card_ubicaciòn_3{
+ border:solid black;
+ margin-top: 20px;
+margin-right: 20px;
+}
+
+
 
 /* servicios */
 .about__servicios{
