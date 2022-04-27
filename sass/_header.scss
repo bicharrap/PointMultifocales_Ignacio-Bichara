@@ -1,0 +1,38 @@
+header
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background: rgb(236,235,246);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+
+    nav{
+    width: 50%;
+    margin-right: 20px;}
+    .header__menu{
+        width: 100%;
+        }
+        
+    .header__menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    width: 100%;
+    }
+    
+    .header__menu ul li {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0.5rem;
+    display: inline-block;
+        margin: 0 0.5rem;
+        animation:bounce;
+        animation-duration: 2s;
+    }
+
+}
+       

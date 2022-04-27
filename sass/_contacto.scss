@@ -1,0 +1,27 @@
+main{
+    .contact__mainContainer {
+            min-height: 90vh;
+            display: grid;
+            align-items: center;
+        }
+        
+        .contact__mainContainer .contact__form {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contact__mainContainer .contact__form input {
+            height: 2.5rem;
+            padding: 1rem;
+            outline: none;
+            margin-bottom: 1rem;
+        }
+        
+        .contact__mainContainer .contact__form textarea {
+            padding: 1rem;
+            resize: none;
+            margin-bottom: 1rem;
+        }
+        
+    }
